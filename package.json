@@ -1,0 +1,23 @@
+{
+  "name": "agentic-orchestrator-os",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "seed:canonical": "node scripts/seed-canonical.js",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "openai": "^4.52.0",
+    "zod": "^3.23.8",
+    "uuid": "^9.0.1",
+    "@opentelemetry/sdk-node": "^0.52.0",
+    "autogen_agentchat": "^0.4.0"
+  }
+}
